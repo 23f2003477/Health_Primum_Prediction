@@ -135,8 +135,5 @@ Health_Primum_Prediction/
 │       ├── scaler_young.joblib
 │       └── scaler_rest.joblib
 │
-├── notebooks/
-│   └── model_training.ipynb
-│
 ├── requirements.txt
 └── README.md
