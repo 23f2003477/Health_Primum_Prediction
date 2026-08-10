@@ -4,7 +4,7 @@ from pathlib import Path
 
 #path
 BASE_DIR = Path(__file__).resolve().parent
-ARTIFACTS = BASE_DIR.parent / "artifacts"
+ARTIFACTS = BASE_DIR / "artifacts"
 
 #load models and scalers files 
 model_young = joblib.load(ARTIFACTS / "model_young.joblib")
